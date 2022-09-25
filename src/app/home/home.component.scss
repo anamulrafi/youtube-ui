@@ -1,0 +1,35 @@
+.youtube-logo {
+
+    width: 90px;
+    height: 30px;
+}
+
+.side-video {
+    width: 166px;
+    height: 92px;
+}
+
+.video-list .single {
+    width: 100% !important;
+}
+
+.video-list .single p {
+    margin-bottom: 0px;
+}
+
+.single-video h6 {
+    font-size: 14px !important;
+    font-weight: 400;
+}
+
+.subscribe-button {
+    text-align: right;
+}
+
+@media (max-width: 800px) {
+    .subscribe-button {
+        text-align: left !important;
+        margin-bottom: 10px;
+        margin-left: 60px;
+    }
+}
