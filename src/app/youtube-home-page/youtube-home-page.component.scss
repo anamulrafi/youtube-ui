@@ -1,0 +1,55 @@
+.video-list {
+    width: 269px;
+    height: 262px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.video-thumbnill {
+    width: 255px;
+    height: 145px;
+}
+
+.video-title {
+    padding: 15px 0px 0px 53px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.channel-img {
+    width: 37px;
+    height: 37px;
+    float: left;
+    margin: 0px;
+    padding-right: 10px !important;
+    height: 36px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.channel-img img {
+    border-radius: 100%;
+}
+
+.channel-info {
+    padding: 0px 0px 0px 53px;
+
+}
+
+.example-container {
+    width: 500px;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.example-sidenav-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.example-sidenav {
+    padding: 20px;
+}

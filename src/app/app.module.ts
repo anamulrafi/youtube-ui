@@ -11,22 +11,21 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatButtonModule } from '@angular/material/button';
 import { ToolbarComponent } from './toolbar/toolbar.component';
-import { LicenseComponent } from './license/license.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { UserProfileComponent } from './user-profile/user-profile.component';
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 
 @NgModule({
   declarations: [AppComponent,
     HomeComponent,
     ContentComponent,
-    LicenseComponent,
     ToolbarComponent,
     UserProfileComponent,
     YoutubeHomePageComponent],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, BrowserAnimationsModule,
-    MatDividerModule, MatButtonModule, MatCardModule, MatIconModule
+    MatDividerModule, MatButtonModule, MatCardModule, MatIconModule, MatSidenavModule
   ],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],

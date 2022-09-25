@@ -2,12 +2,18 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { ContentComponent } from './content/content.component';
 import { HomeComponent } from './home/home.component';
-import { LicenseComponent } from './license/license.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { YoutubeHomePageComponent } from './youtube-home-page/youtube-home-page.component';
 
 const routes: Routes = [
+
+  {
+    path: '',
+    redirectTo: 'youtube-home-page',
+    pathMatch: 'full'
+
+  },
   {
     path: 'home',
     component: HomeComponent
@@ -16,11 +22,6 @@ const routes: Routes = [
     path: 'content',
     component: ContentComponent
   },
-  {
-    path: 'license',
-    component: LicenseComponent
-  },
-
   {
     path: 'toolbar',
     component: ToolbarComponent
@@ -31,7 +32,7 @@ const routes: Routes = [
   },
 
   {
-    path: 'youtube-home-profile',
+    path: 'youtube-home-page',
     component: YoutubeHomePageComponent
   },
 ];

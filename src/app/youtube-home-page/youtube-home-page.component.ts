@@ -5,10 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './youtube-home-page.component.html',
   styleUrls: ['./youtube-home-page.component.scss'],
 })
+
 export class YoutubeHomePageComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() { }
 
 }
